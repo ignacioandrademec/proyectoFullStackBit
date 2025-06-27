@@ -7,3 +7,4 @@ const schemaUser = new Schema({
 });
 
 export default model ('User', schemaUser);
+
