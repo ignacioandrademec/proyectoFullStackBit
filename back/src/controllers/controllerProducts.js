@@ -11,7 +11,7 @@ const controllerProducts = {
                     cb(null, file.originalname);
                 },
             });
-            const carga = multer({storage:almacenar}).single('image');
+            const carga = multer({storage:almacenar}).single('imagen');
             carga(sol, res, async(error)=>{
                 if(error){
                     res.json({

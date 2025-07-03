@@ -115,5 +115,13 @@ const controllerUsers = {
     }
 };
 
+// Funcion para crear una contraseña aleatoria
+
+function generarContraseñaAleatoria(){
+    // instalamos npm i nodemailer
+    
+}
+
+
 export default controllerUsers;
 
